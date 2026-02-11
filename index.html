@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat My Bubbles – App Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Eat My Bubbles</h1>
+        <p class="tagline">A simple swim tracking app built for real swimmers.</p>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>About the App</h2>
+            <p>
+                Eat My Bubbles is a lightweight swim tracking app designed for clarity, speed, 
+                and real‑world usability. It focuses on the essentials — logging swims, tracking 
+                progress, and keeping your data accessible.
+            </p>
+        </section>
+
+        <section class="links">
+            <h2>Legal & Support</h2>
+            <ul>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="mailto:foggygoggles.dev@gmail.com">Contact Support</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> foggygoggles</p>
+    </footer>
+
+    <script>
+        // Auto-update footer year
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
