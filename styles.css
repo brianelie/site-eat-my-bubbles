@@ -57,3 +57,10 @@ footer {
     background: #eee;
     font-size: 0.9rem;
 }
+
+.feature-header img {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+}
