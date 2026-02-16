@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: #0a3d62;
+    background: #0E71B7;
     color: white;
     padding: 2rem 1rem;
     text-align: center;
@@ -28,7 +28,7 @@ main {
 
 h2 {
     margin-top: 2rem;
-    color: #0a3d62;
+    color: #0E71B7;
 }
 
 .links ul {
@@ -41,7 +41,7 @@ h2 {
 }
 
 .links a {
-    color: #0a3d62;
+    color: #0E71B7;
     text-decoration: none;
     font-weight: 600;
 }

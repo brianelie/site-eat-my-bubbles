@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deletion – Eat My Bubbles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Account Deletion</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>How to Delete Your Account</h2>
+            <p>You can delete your Eat My Bubbles account at any time from within the app.</p>
+
+            <ol>
+                <li>Open the Profile tab</li>
+                <li>Tap <strong>Delete Account</strong></li>
+                <li>Confirm deletion</li>
+            </ol>
+
+            <p>Deletion is immediate and permanent.</p>
+        </section>
+
+        <section>
+            <h2>What Happens When Your Account Is Deleted</h2>
+            <ul>
+                <li>Your profile is removed</li>
+                <li>All swim sessions and dryland sessions are deleted</li>
+                <li>All preferences and settings are deleted</li>
+                <li>Your Firebase Authentication account is permanently removed</li>
+            </ul>
+
+            <p>No data is retained after deletion.</p>
+        </section>
+
+        <section>
+            <h2>Need Help?</h2>
+            <p>If you need assistance, contact us at
+                <a href="mailto:foggygoggles.dev@gmail.com">foggygoggles.dev@gmail.com</a>.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> foggygoggles</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>
