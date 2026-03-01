@@ -13,7 +13,7 @@
         <main>
 
         <div class="hero-logo-row">
-            <img src="assets/Blue and White.png" alt="Eat My Bubbles logo" class="hero-brand-logo">
+            <img src="assets/All White.png" alt="Eat My Bubbles logo" class="hero-brand-logo">
         </div>
 
         <!-- HERO -->
@@ -21,7 +21,7 @@
             <div class="hero-copy">
                 <div class="eyebrow">
                     <span class="eyebrow-pill"></span>
-                    Freedom to swim your way
+                    Built for swimmers who actually train
                 </div>
                 <h1 class="hero-title">
                     A better way to <span>log your swims</span>.
@@ -31,12 +31,15 @@
                     <strong>Capture every set, interval, and feel of the water</strong>—without the clutter.
                 </p>
                 <div class="hero-actions">
-                    <a class="btn-primary" href="https://forms.gle/KbBzk3FSjr9WeVzAA">
-                        Sign up for beta access
-                    </a>
+                    <button class="btn-primary">
+                        Download on your phone
+                    </button>
+                    <button class="btn-secondary">
+                        Watch a 90‑second walkthrough
+                    </button>
                 </div>
                 <p class="hero-footnote">
-                    No watch. No demands. Just you and the line.
+                    No feeds. No followers. Just clean, swimmer‑authentic logging that respects your training.
                 </p>
             </div>
 
@@ -50,19 +53,15 @@
         <!-- ABOUT -->
         <section class="about">
             <div class="about-media">
-                <img src="assets/feature_graphic_swimmer.png" alt="Swimmer graphic" class="about-media-image">
+                <div class="about-media-placeholder">Image coming soon</div>
             </div>
             <div class="about-content">
-                <h2>Find your lane</h2>
+                <h2>Built for Real Swimmers</h2>
                 <p>
-                    Eat My Bubbles focuses on the essentials — logging swims, tracking progress, and keeping your data accessible. It’s
-                    built for the rhythm of real training, where every lap has a purpose and every detail matters.
-                    <br><br>
-                    Instead of clutter or distractions, you get a space that feels steady and familiar.
-                    Sets, intervals, and notes stay organized and easy to revisit, so your progress is always clear and close at hand.
-                    <br><br>
-                    The app stays out of your way, letting the work speak for itself. Just a calm, swimmer‑centric experience shaped by the
-                    way you actually train — simple where it should be, thoughtful where it counts, and always ready for the next session.
+                    Eat My Bubbles focuses on the essentials — logging swims, tracking progress, and keeping your
+                    data accessible.
+                    No clutter. No noise. Just a calm, swimmer‑centric experience designed to feel like a real
+                    training logbook.
                 </p>
             </div>
         </section>
@@ -72,15 +71,26 @@
             <h2>In the Water</h2>
             <div class="image-grid">
                 <article class="image-card">
+                    <p class="image-caption">Analytics</p>
                     <img src="assets/analytics_ss.png" alt="Analytics screenshot" class="image-phone">
                 </article>
                 <article class="image-card">
+                    <p class="image-caption">Workout Detail</p>
                     <img src="assets/detail_ss.png" alt="Detail screenshot" class="image-phone">
                 </article>
                 <article class="image-card">
+                    <p class="image-caption">Profile</p>
                     <img src="assets/profile_ss.png" alt="Profile screenshot" class="image-phone">
                 </article>
             </div>
+        </section>
+        
+        <!-- CALL TO ACTION -->
+        <section class="cta">
+            <div class="cta-text">
+                <h3>Already in active testing? Send feedback or request support.</h3>
+            </div>
+            <a class="cta-button" href="https://forms.gle/CwvuC7F6KfbtjrzV6">Open Support Form</a>
         </section>
         
         <section class="sign-up">
@@ -93,22 +103,22 @@
 
         </main>
 
-        <!-- FOOTER -->
-        <footer>
-            <nav class="footer-links">
-                <a href="privacy.html">Privacy</a>
-                <a href="terms.html">Terms</a>
-                <a href="delete-account.html">Delete Account</a>
-                <a href="https://forms.gle/CwvuC7F6KfbtjrzV6">Feedback &amp; Support</a>
-            </nav>
-            <p>© <span id="year"></span> foggygoggles</p>
-        </footer>
-
-        <script>
-            // Set current year in footer
-            document.getElementById('year').textContent = new Date().getFullYear();
-        </script>
     </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <nav class="footer-links">
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a href="delete-account.html">Delete Account</a>
+        </nav>
+        <p>© <span id="year"></span> foggygoggles</p>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
